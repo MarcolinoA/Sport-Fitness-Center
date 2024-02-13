@@ -1,6 +1,6 @@
 .navbar {
   background: black;
-  height: 80px;
+  height: 110px;
   display: flex;
   flex-direction: center;
   align-items: center;
@@ -59,11 +59,6 @@
   background: white;
 }
 
-.nav-item:active {
-  color: white;
-  border: 1px solid white;
-}
-
 .nav-icon {
   display: none;
   margin-right: 20px;
@@ -82,13 +77,11 @@
   }
 
   .nav-logo {
-    margin: 10px
+    margin: 10px;
   }
 
   .nav-menu.active {
     background-color: black;
-    justify-content: center;
-    align-items: center;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
@@ -101,7 +94,7 @@
   }
 
   .nav-links {
-    padding: 20px;
+    padding: 20px 10px;
     width: 100%;
     display: table;
   }
@@ -111,7 +104,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 120%);
     font-size: 25px;
     cursor: pointer;
     color: white;

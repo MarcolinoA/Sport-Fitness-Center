@@ -1,0 +1,23 @@
+.bg-container {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+}
+
+.bg-title.roboto-bold {
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  left: 5%;
+}
+
+
+@media screen and (max-width: 960px) {
+  .bg-title.roboto-bold {
+    display: none;
+  }
+}
