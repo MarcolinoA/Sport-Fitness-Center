@@ -9,7 +9,7 @@
 
 .bg-title.roboto-bold {
   font-size: 80px;
-  color: white;
+  color: var(--body_color);
   position: absolute;
   bottom: 50%;
   left: 5%;

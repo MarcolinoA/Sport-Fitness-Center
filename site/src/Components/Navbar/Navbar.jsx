@@ -1,7 +1,13 @@
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
-import { ReactComponent as LogoExt } from "../Icons/Logo_esteso.svg";
+import { ReactComponent as LogoExt } from "./Icons/Logo_esteso.svg";
 import { useState } from "react";
+import BtnTheme from "../BtnTheme/BtnTheme";
+import { ReactComponent as Menu } from "./Icons/menu.svg";
+import { ReactComponent as MenuLight } from "./Icons/menu_light.svg";
+import { ReactComponent as X } from "./Icons/x.svg";
+import { ReactComponent as XLight } from "./Icons/x_light.svg";
+
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -68,7 +74,12 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-icon" onClick={handleClick}>
-        <i className={click ? "fas fa-times " : "fas fa-bars"}></i>
+        {
+          click ? <XLight /> : <MenuLight />
+        }
+      </div>
+      <div className="btn-theme">
+        <BtnTheme />
       </div>
     </nav>
   );

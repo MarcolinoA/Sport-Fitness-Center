@@ -1,5 +1,5 @@
 .navbar {
-  background: black;
+  background: var(--navbar_background);
   height: 110px;
   display: flex;
   flex-direction: center;
@@ -34,7 +34,7 @@
 }
 
 .nav-links {
-  color: white;
+  color: var(--navbar_color);
   text-decoration: none;
   padding: 8px 15px;
   border-bottom: 3px solid transparent;
@@ -56,12 +56,16 @@
 
 .nav-item:hover:after {
   width: 100%;
-  background: white;
+  background: var(--navbar_color);
 }
 
 .nav-icon {
   display: none;
   margin-right: 20px;
+}
+
+.logo_ext{
+  color: var(--icon_color);
 }
 
 @media screen and (max-width: 960px) {
@@ -81,15 +85,16 @@
   }
 
   .nav-menu.active {
-    background-color: black;
+    background-color: var(--navbar_background);
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    margin-top: 10px;
   }
 
   .nav-item .active {
-    color: white;
+    color: var(--navbar_color);
     border: none;
   }
 
@@ -104,9 +109,8 @@
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 120%);
+    transform: translate(-110%, 80%);
     font-size: 25px;
     cursor: pointer;
-    color: white;
   }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomeStyle.css";
 import Background from "./Background/Background";
+import OfferCard from "./OurOffer/OfferCard";
 
 const Home = () => {
   return (
@@ -8,9 +9,10 @@ const Home = () => {
       <Background />
 
       <div className="our-offer">
-        <h1 className="offer-title">Our Offer</h1>
-
+        <OfferCard />
       </div>
+
+      <div className="footer"></div>
     </div>
   );
 };

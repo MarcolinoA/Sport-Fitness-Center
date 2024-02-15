@@ -3,10 +3,10 @@
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" className="logo-ext"
  width="170.000000pt" height="60.000000pt" viewBox="0 0 598.000000 194.000000"
- preserveAspectRatio="xMidYMid meet">
+ preserveAspectRatio="xMidYMid meet" className="logo_ext">
 
 <g transform="translate(0.000000,194.000000) scale(0.100000,-0.100000)"
-fill="#fff" stroke="none">
+fill="#F9F9F9" stroke="none">
 <path d="M1275 1834 c-283 -188 -459 -434 -489 -686 -31 -252 196 -559 615
 -831 118 -76 269 -162 269 -153 0 3 -42 38 -92 79 -121 96 -294 270 -374 377
 -114 151 -164 271 -164 391 0 53 2 59 37 90 66 58 193 107 438 170 l150 38
