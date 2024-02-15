@@ -1,7 +1,7 @@
-.offer-title {
+.offer-title-main {
   font-size: 80px;
   letter-spacing: 2px;
-  color: var(--body_color);
+  color: #13b388;
 }
 
 .offer-container {
@@ -30,9 +30,11 @@
   color: #13b388;
   font-size: 48px;
 }
-
+/*//#13b388 verde acqua
+  //#F72798 magenta
+  //#F9F9F9 bianco*/
 .offert-desc {
-  color: #13b388;
+  color: #000;
   font-size: 28px;
 }
 
