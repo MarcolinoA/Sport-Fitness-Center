@@ -1,7 +1,7 @@
 .offer-title-main {
   font-size: 80px;
   letter-spacing: 2px;
-  color: #13b388;
+  color: var(--body_color);
 }
 
 .offer-container {
@@ -18,23 +18,20 @@
   align-items: center;
   justify-content: center;
   margin: 0 20px;
-  color: var(--body_color);
   font-size: 48px;
 }
 
 .icon-card {
-  max-width: 100px;
+  min-width: 100px;
 }
 
 .offert-title {
-  color: #13b388;
+  color: var(--body_color);
   font-size: 48px;
 }
-/*//#13b388 verde acqua
-  //#F72798 magenta
-  //#F9F9F9 bianco*/
+
 .offert-desc {
-  color: #000;
+  color: var(--desc);
   font-size: 28px;
 }
 
@@ -42,7 +39,6 @@
   .offer-title {
     font-size: 60px;
     letter-spacing: 0px;
-    color: var(--body_color);
   }
 
   .offer-container {

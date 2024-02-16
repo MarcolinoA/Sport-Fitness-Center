@@ -1,5 +1,5 @@
 .navbar {
-  background: #13b388;
+  background: var(--navbar_background);
   height: 110px;
   display: flex;
   flex-direction: center;
@@ -23,6 +23,10 @@
   align-items: center;
   margin-left: 20px;
   flex-grow: 1;
+}
+
+.logo-ext {
+  color: var(--navbar_color);
 }
 
 .nav-menu {
@@ -64,9 +68,11 @@
   margin-right: 20px;
 }
 
-.logo_ext{
-  color: var(--icon_color);
+.menu-icon {
+  color: var(--navbar_color);
 }
+
+
 
 @media screen and (max-width: 960px) {
   .nav-menu {
@@ -85,7 +91,7 @@
   }
 
   .nav-menu.active {
-    background-color: #13b388;
+    background-color: var(--navbar_background);
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;

@@ -3,15 +3,15 @@
   --body_color: #13b388;
   --navbar_background: #13b388;
   --navbar_color: #F9F9F9;
-  --icon_color: #F9F9F9;
+  --desc: #000;
 }
 
 [data-theme="dark"] {
   --body_background: #000;
-  --body_color: #E25822;
+  --body_color: #F72798;
   --navbar_background: #000;
-  --navbar_color: #E25822;
-  --icon_color: #E25822;
+  --navbar_color: #F72798;
+  --desc: #F9F9F9;
 }
 
 body {

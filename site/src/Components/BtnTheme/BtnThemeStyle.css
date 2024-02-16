@@ -1,7 +1,7 @@
 label {
   width: 40px;
   height: 40px;
-  background: #13b388;
+  background: var(--navbar-background);
   border-radius: 50%;
   cursor: pointer;
   display: flex;
@@ -19,7 +19,7 @@ label {
 
 .sun-icon {
   position: absolute;
-  color: var(--icon_color);
+  color: var(--navbar_color);
   transform: scale(0);
   transition: 1s ease;
 }
@@ -29,7 +29,7 @@ input:checked~.sun-icon{
 }
 
 .moon-icon {
-  color: var(--icon_color);
+  color: var(--navbar_color);
   transition: 1s ease;
 }
 

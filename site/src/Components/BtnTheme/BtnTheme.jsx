@@ -2,7 +2,6 @@ import React from "react";
 import "./BtnThemeStyle.css";
 import MoonIcon from "./Icons/MoonIcon";
 import SunIcon from "./Icons/SunIcon";
-import Prova from "../Prova";
 
 const BtnTheme = () => {
   const setDarkMode = () => {

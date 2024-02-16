@@ -1,12 +1,11 @@
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
-import { ReactComponent as LogoExt } from "./Icons/Logo_esteso.svg";
+
 import { useState } from "react";
 import BtnTheme from "../BtnTheme/BtnTheme";
-import { ReactComponent as Menu } from "./Icons/menu.svg";
-import { ReactComponent as MenuLight } from "./Icons/menu_light.svg";
-import { ReactComponent as X } from "./Icons/x.svg";
-import { ReactComponent as XLight } from "./Icons/x_light.svg";
+import LogoExt from "./Icons/LogoExt";
+import MenuIcon from "./Icons/MenuIcon";
+import XIcon from "./Icons/XIcon";
 
 
 const Navbar = () => {
@@ -20,7 +19,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <NavLink exact to="/" className="nav-logo">
-          <LogoExt />
+          <LogoExt className={"logo-ext"} />
         </NavLink>
       </div>
 
@@ -75,7 +74,7 @@ const Navbar = () => {
       </ul>
       <div className="nav-icon" onClick={handleClick}>
         {
-          click ? <XLight /> : <MenuLight />
+          click ? <XIcon className={"menu-icon"}/> : <MenuIcon className={"menu-icon"}/>
         }
       </div>
       <div className="btn-theme">
