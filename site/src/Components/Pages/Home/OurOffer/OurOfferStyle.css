@@ -23,6 +23,7 @@
 
 .icon-card {
   min-width: 100px;
+  color: var(--desc);
 }
 
 .offert-title {

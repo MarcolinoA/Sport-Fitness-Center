@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 import { useState } from "react";
 import BtnTheme from "../BtnTheme/BtnTheme";
-import LogoExt from "./Icons/LogoExt";
-import MenuIcon from "./Icons/MenuIcon";
-import XIcon from "./Icons/XIcon";
+import LogoExt from "../Icons/LogoExt";
+import MenuIcon from "../Icons/MenuIcon";
+import XIcon from "../Icons/XIcon";
 
 
 const Navbar = () => {

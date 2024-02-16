@@ -1,6 +1,8 @@
 import React from "react";
 import "./OurOfferStyle.css";
-import StreatchingIcon from "../Icons/Streatching";
+import StreatchingIcon from "../../../Icons/Streatching";
+import PullupsIcon from "../../../Icons/PullupsIcon";
+import DeadliftIcon from "../../../Icons/DeadliftIcon";
 
 const OfferCard = () => {
   const offerts = [
@@ -8,19 +10,19 @@ const OfferCard = () => {
       id: 1,
       title: "Fitness",
       desc: "Breve descrizione dell'attivita",
-      icon: <StreatchingIcon className={"icon-card"} theme="light" />,
+      icon: <PullupsIcon className={"icon-card"} />
     },
     {
       id: 2,
       title: "Powerlifting",
       desc: "Breve descrizione dell'attivita",
-      icon: <StreatchingIcon className={"icon-card"} theme="light" />,
+      icon: <DeadliftIcon className={"icon-card"} />
     },
     {
       id: 3,
       title: "Posturale",
       desc: "Breve descrizione dell'attivita",
-      icon: <StreatchingIcon className={"icon-card"} theme="light" />,
+      icon: <StreatchingIcon className={"icon-card"} />,
     },
   ];
 
