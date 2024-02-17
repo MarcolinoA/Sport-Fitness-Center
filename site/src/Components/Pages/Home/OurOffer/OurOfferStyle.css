@@ -1,3 +1,10 @@
+.aux {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .offer-title-main {
   font-size: 80px;
   letter-spacing: 2px;

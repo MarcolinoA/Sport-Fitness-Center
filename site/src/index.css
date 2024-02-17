@@ -4,6 +4,10 @@
   --navbar_background: #13b388;
   --navbar_color: #F9F9F9;
   --desc: #000;
+  --footer_background: #0c8a68;
+  --footer_color: #F9F9F9;
+  --footer_title_size: 20px;
+  --footer_desc_size: 15px;
 }
 
 [data-theme="dark"] {
