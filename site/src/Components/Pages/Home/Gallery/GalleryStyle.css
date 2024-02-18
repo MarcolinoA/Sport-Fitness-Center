@@ -1,0 +1,18 @@
+.gallery {
+  padding: 40px 0px;
+}
+
+.carousel-images {
+  position: relative;
+  border-radius: 40px;
+  height: 400px;
+  max-width: 650px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-images img {
+  width: 99%;
+  height: 99%;
+  border-radius: 40px;
+}

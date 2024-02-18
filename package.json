@@ -3,6 +3,8 @@
     "react-router-dom": "^5.3.4"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.5.1"
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "framer-motion": "^11.0.5",
+    "react-awesome-slider": "^4.1.0"
   }
 }

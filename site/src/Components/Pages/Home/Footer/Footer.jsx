@@ -1,14 +1,14 @@
-import DeadliftIcon from "../../../Icons/DeadliftIcon";
 import "./FooterStyle.css";
 import Contact from "./Contact";
 import Browse from "./Browse";
+import PowerliftingIcon from "../../../Icons/PowerliftingIcon";
 
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="first-section">
         <div className="logo">
-          <DeadliftIcon />
+          <PowerliftingIcon />
         </div>
         <div className="company-info">
           <h4 className="company-name title">Sport & Fitness Center</h4>
