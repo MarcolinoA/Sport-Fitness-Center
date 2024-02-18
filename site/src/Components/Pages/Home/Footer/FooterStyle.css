@@ -61,6 +61,7 @@
 
 hr {
   width: 60%;
+  border-color: var(--hr_color);
 }
 
 .maps-field,
@@ -82,4 +83,22 @@ hr {
 .a {
   text-decoration: none;
   color: var(--footer_color);
+}
+
+@media screen and (max-width: 960px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact {
+    align-items: center;
+    justify-content: center;
+  }
+
+  hr {
+    width: 100%;
+  }
 }

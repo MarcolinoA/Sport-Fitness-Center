@@ -7,14 +7,14 @@
   justify-content: left;
 }
 
-.bg-title.roboto-bold {
-  font-size: 80px;
-  color: var(--navbar_color);
+.bg-title {
+  color: var(--icon_color);
   position: absolute;
   bottom: 50%;
-  left: 5%;
+  left: 0%;
+  width: 400px;
+  height: 300px;
 }
-
 
 @media screen and (max-width: 960px) {
   .bg-title.roboto-bold {

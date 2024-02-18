@@ -3,9 +3,11 @@
   --body_color: #13b388;
   --navbar_background: #13b388;
   --navbar_color: #F9F9F9;
+  --icon_color: #F9F9F9;
   --desc: #000;
   --footer_background: rgb(19, 179, 136);
   --footer_color: #F9F9F9;
+  --hr_color: #F9F9F9;
   --footer_title_size: 20px;
   --footer_desc_size: 15px;
 }
@@ -15,7 +17,13 @@
   --body_color: #F72798;
   --navbar_background: #000;
   --navbar_color: #F72798;
+  --icon_color: #F9F9F9;
   --desc: #F9F9F9;
+  --footer_background: #000;
+  --footer_color: #F72798;
+  --hr_color: #F72798;
+  --footer_title_size: 20px;
+  --footer_desc_size: 15px;
 }
 
 body {

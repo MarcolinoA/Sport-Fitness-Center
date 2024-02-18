@@ -17,6 +17,9 @@ const Gallery = ({ images }) => {
 
   return (
     <div className="gallery">
+      <div className="gallery-title">
+        <h1 className="h1-title">Gallery</h1>
+      </div>
       <div className="carousel-images">
         <AnimatePresence mode="wait">
           <motion.img

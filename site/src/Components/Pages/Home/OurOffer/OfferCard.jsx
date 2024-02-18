@@ -29,7 +29,7 @@ const OfferCard = () => {
   return (
     <>
       <div className="aux">
-        <h1 className="offer-title-main">Our Offer</h1>
+        <h1 className="offer-title-main">Attività</h1>
       </div>
       <div className="offer-container">
         {offerts.map((offert) => (
