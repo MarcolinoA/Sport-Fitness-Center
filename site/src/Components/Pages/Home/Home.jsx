@@ -2,7 +2,7 @@ import React from "react";
 import "./HomeStyle.css";
 import Background from "./Background/Background";
 import OfferCard from "./OurOffer/OfferCard";
-import Footer from "./Footer/Footer";
+import Footer from "../Footer/Footer";
 import Gallery from "./Gallery/Gallery";
 
 const Home = () => {

@@ -5,11 +5,14 @@
   --navbar_color: #F9F9F9;
   --icon_color: #F9F9F9;
   --desc: #000;
-  --footer_background: rgb(19, 179, 136);
+  --footer_background: #13b388;
   --footer_color: #F9F9F9;
   --hr_color: #F9F9F9;
   --footer_title_size: 20px;
   --footer_desc_size: 15px;
+  --title_size: 80px;
+  --subtitle_size: 48px;
+  --desc_size: 28px;
 }
 
 [data-theme="dark"] {
@@ -24,6 +27,9 @@
   --hr_color: #F72798;
   --footer_title_size: 20px;
   --footer_desc_size: 15px;
+  --title_size: 80px;
+  --subtitle_size: 48px;
+  --desc_size: 28px;
 }
 
 body {
