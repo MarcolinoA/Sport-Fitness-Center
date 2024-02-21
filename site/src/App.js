@@ -5,6 +5,7 @@ import Attivita from "./Components/Pages/Attivita";
 import Contattaci from "./Components/Pages/Contattaci";
 import Home from "./Components/Pages/Home/Home";
 import StaffHome from "./Components/Pages/Personale/StaffHome";
+import AntonioUngaro from "./Components/Pages/Personale/AntonioUngaro";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/staffhome" element={<StaffHome />} />
           <Route exact path="/attivita" element={<Attivita />} />
           <Route exact path="/contattaci" element={<Contattaci />} />
+          <Route exact path="/antonioungaro" element={<AntonioUngaro />} />
         </Routes>
         </div>
       </BrowserRouter>

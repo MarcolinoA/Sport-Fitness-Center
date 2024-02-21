@@ -58,7 +58,7 @@
   justify-content: left;
   align-items: center;
 }
-
+ 
 hr {
   width: 60%;
   border-color: var(--hr_color);
@@ -91,6 +91,21 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .first-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .company-info,
+  .company-info.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .contact {

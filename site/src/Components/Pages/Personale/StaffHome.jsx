@@ -1,6 +1,6 @@
 import React from "react";
 import StaffCard from "./StaffCard";
-import "./CoachStyle.css";
+import "./StaffStyle.css";
 import Footer from "../Footer/Footer";
 
 const StaffHome = () => {
