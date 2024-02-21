@@ -1,0 +1,65 @@
+.title-name {
+  background-color: var(--navbar_background);
+  color: var(--navbar_color);
+  font-size: 80px;
+  text-align: center;
+}
+
+.personal-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.img-info {
+  min-width: 300px;
+  max-width: 600px; /* Larghezza massima dell'immagine pari al 100% della larghezza del suo contenitore */
+  max-height: 500px; /* Altezza massima dell'immagine pari al 100% dell'altezza del suo contenitore */
+  width: auto; /* Imposta la larghezza dell'immagine su auto per mantenere l'aspetto proporzionale */
+  height: auto; /* Imposta l'altezza dell'immagine su auto per mantenere l'aspetto proporzionale */
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px;
+}
+
+.personal-name {
+  color: var(--desc);
+  font-size: 48px;
+}
+
+.personal-job {
+  font-size: 38px;
+  color: var(--body_color);
+}
+
+.personal-desc {
+  color: var(--desc);
+  font-size: 30px;
+}
+
+.personal-age-container,
+.personal-qualifications-container {
+  color: var(--desc);
+  display: flex;
+  flex-direction: row;
+}
+
+.age,
+.quali,
+.age-numb,
+.quali-numb {
+  font-size: 25px;
+}
+
+.other-desc{
+  font-size: 30px;
+  margin: 20px 50px;
+  text-align: center;
+  color: var(--desc);
+}

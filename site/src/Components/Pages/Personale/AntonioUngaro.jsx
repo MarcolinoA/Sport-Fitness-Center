@@ -1,37 +1,48 @@
 import Footer from "../Footer/Footer";
 import image_prova from "./coachProva.jpg";
+import "./PersonalStyle.css";
 
 const AntonioUngaro = () => {
   return (
-    <div className="personal-container">
-      <div className="personal-title">
-        <h1 className="title">Antonio Ungaro</h1>
+    <div className="personal">
+      <h1 className="title-name">Antonio Ungaro</h1>
+
+      <div className="personal-info-container">
+        <div className="personal-info-img">
+          <img className="img-info" src={image_prova} alt="" />
+        </div>
+
+        <div className="personal-info">
+          <h4 className="personal-name">Antonio Ungaro</h4>
+          <p className="personal-job">
+            <strong>Coach</strong>
+          </p>
+          <p className="personal-desc">
+            Pietra miliare di H2O Concept ed oggi DT, inizia il suo percorso nel
+            mondo del fitness da molto giovane e si appassiona quasi da subito
+            al bodybuilding e alla pesistica.
+          </p>
+          <div className="personal-age-container">
+            <p className="age">ETA: </p>
+            <p className="age-numb">40</p>
+          </div>
+          <div className="personal-qualifications-container">
+            <p className="quali">QUALIFICHE: </p>
+            <p className="quali-numb">
+              Allenatore Personal Trainer certificato FIPE
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div className="personal-info">
-        <img src={image_prova} alt="" />
-        <h4 className="personal-name">Antonio Ungaro</h4>
-        <p className="personal-job">
-          <strong>Coach</strong>
-        </p>
-        <p className="personal-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-        </p>
-        <div className="personal-age-container">
-          <p className="age">ETA: </p>
-          <p className="age-numb">40</p>
-        </div>
-        <div className="personal-qualifications-container">
-          <p className="age">QUALIFICHE: </p>
-          <p className="age-numb">Certificato sportivo...</p>
-        </div>
-
-        <div className="other-desc">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
-          obcaecati aliquam sapiente aliquid delectus quos sunt accusamus omnis
-          facilis mollitia molestiae soluta iusto quasi, quod accusantium in,
-          expedita nam asperiores!
-        </div>
+      <div className="other-desc">
+        Nel tempo si specializza nell’allenamento funzionale e di cross training
+        diversificando i format di allenamento proposti nelle sue classi e negli
+        allenamenti individuali. I continui corsi di aggiornamento gli
+        consentono di sviluppare sempre maggiori competenze che abbinate alla
+        sua dedizione, creatività e forte passione gli permettono di soddisfare
+        le esigenze specifiche dei suoi allievi garantendo loro il
+        raggiungimento dei propri obiettivi.
       </div>
 
       <div className="staff-footer">

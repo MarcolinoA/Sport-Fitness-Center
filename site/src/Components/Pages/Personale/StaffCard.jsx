@@ -36,7 +36,15 @@ const StaffCard = () => {
       <div className="staff-header">
         <h1 className="staff-title">Istruttori</h1>
         <p className="staff-desc">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          Professionisti altamente qualificati specializzati in ipertrofia
+          muscolare o dimagrimento e tonificazione, rieducazione posturale,
+          riabilitazione motoria e benessere psicofisico attraverso i percorsi
+          di yoga e pilates. In continuo e costante aggiornamento per esser al
+          passo con le evoluzioni delle discipline che insegnano i trainers
+          scelti da H2O Concept per la forte dedizione e passione, si
+          prenderanno cura di voi contribuendo giorno dopo giorno al
+          raggiungimento dei vostri desideri di allenamento e sport. Il nostro
+          obiettivo è farvi stare bene!
         </p>
       </div>
       <div className="staff-first-container">
@@ -45,9 +53,11 @@ const StaffCard = () => {
             <img className="coach-image" src={coach.image} alt={coach.name} />
             <div className="info-container">
               <h4 className="coach-name">{coach.name}</h4>
-              <p className="coach-job"><strong>{coach.job}</strong></p>
+              <p className="coach-job">
+                <strong>{coach.job}</strong>
+              </p>
               <p className="coach-desc">{coach.desc}</p>
-              <NavLink  exact to="/antonioungaro">
+              <NavLink exact to="/antonioungaro">
                 <button class="bn632-hover bn22">DETTAGLI</button>
               </NavLink>
             </div>
