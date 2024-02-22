@@ -15,7 +15,7 @@ const AntonioUngaro = () => {
         <div className="personal-info">
           <h4 className="personal-name">Antonio Ungaro</h4>
           <p className="personal-job">
-            <strong>Coach</strong>
+            <strong className="strong">Coach</strong>
           </p>
           <p className="personal-desc">
             Pietra miliare di H2O Concept ed oggi DT, inizia il suo percorso nel
@@ -23,14 +23,11 @@ const AntonioUngaro = () => {
             al bodybuilding e alla pesistica.
           </p>
           <div className="personal-age-container">
-            <p className="age">ETA: </p>
-            <p className="age-numb">40</p>
+            <p className="age"><strong className="strong">ETA:</strong> 40</p>
+            
           </div>
           <div className="personal-qualifications-container">
-            <p className="quali">QUALIFICHE: </p>
-            <p className="quali-numb">
-              Allenatore Personal Trainer certificato FIPE
-            </p>
+            <p className="quali"><strong className="strong">QUALIFICHE:</strong> Allenatore Personal Trainer certificato FIPE</p>
           </div>
         </div>
       </div>

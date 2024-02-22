@@ -3,6 +3,7 @@
   color: var(--navbar_color);
   font-size: 80px;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .personal-info-container {
@@ -14,6 +15,7 @@
 }
 
 .img-info {
+  margin-top: 30px;
   min-width: 300px;
   max-width: 600px; /* Larghezza massima dell'immagine pari al 100% della larghezza del suo contenitore */
   max-height: 500px; /* Altezza massima dell'immagine pari al 100% dell'altezza del suo contenitore */
@@ -35,6 +37,9 @@
 
 .personal-job {
   font-size: 38px;
+}
+
+.strong {
   color: var(--body_color);
 }
 
@@ -57,9 +62,50 @@
   font-size: 25px;
 }
 
-.other-desc{
+.other-desc {
   font-size: 30px;
   margin: 20px 50px;
   text-align: center;
   color: var(--desc);
+}
+
+@media screen and (max-width: 960px) {
+  .title-name {
+    font-size: 60px;
+  }
+
+  .personal-info-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-info {
+    width: 300px;
+  }
+
+  .personal-info {
+    text-align: center;
+  }
+
+  .personal-name {
+    font-size: 40px;
+  }
+
+  .personal-job {
+    font-size: 35px;
+  }
+
+  .personal-desc {
+    font-size: 25px;
+  }
+
+  .personal-age-container,
+  .personal-qualifications-container {
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .other-desc{
+    font-size: 25px;
+  }
 }

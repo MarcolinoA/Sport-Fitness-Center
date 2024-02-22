@@ -7,27 +7,27 @@ const StaffCard = () => {
   --title_size: 80px;
   --subtitle_size: 48px;
   --desc_size: 28px; */
-  const first_coaches = [
+  const coaches = [
     {
       id: 1,
       image: image_prova,
       name: "Antonio Ungaro",
-      job: "TITOLARE, COACH, ...",
-      desc: "Breve descrizione dell'allenatore, della sua formazione e della sua manzione",
+      job: "DIRETTORE TECNICO",
+      desc: "Pietra miliare di H2O Concept ed oggi DT, inizia il suo percorso nel mondo del fitness da molto giovane e si appassiona quasi da subito al bodybuilding e alla pesistica.",
     },
     {
       id: 2,
       image: image_prova,
       name: "Davide Giangreco",
-      job: "COACH, ...",
-      desc: "Breve descrizione dell'allenatore, della sua formazione e della sua manzione",
+      job: "DIRETTORE TECNICO",
+      desc: "Pietra miliare di H2O Concept ed oggi DT, inizia il suo percorso nel mondo del fitness da molto giovane e si appassiona quasi da subito al bodybuilding e alla pesistica.",
     },
     {
       id: 3,
       image: image_prova,
       name: "Francesco Maglie",
-      job: "COACH, ...",
-      desc: "Breve descrizione dell'allenatore, della sua formazione e della sua manzione",
+      job: "DIRETTORE TECNICO",
+      desc: "Pietra miliare di H2O Concept ed oggi DT, inizia il suo percorso nel mondo del fitness da molto giovane e si appassiona quasi da subito al bodybuilding e alla pesistica.",
     },
   ];
 
@@ -47,8 +47,8 @@ const StaffCard = () => {
           obiettivo è farvi stare bene!
         </p>
       </div>
-      <div className="staff-first-container">
-        {first_coaches.map((coach) => (
+      <div className="staff-container">
+        {coaches.map((coach) => (
           <div className={`${"coach" + coach.id}`} key={coach.id}>
             <img className="coach-image" src={coach.image} alt={coach.name} />
             <div className="info-container">

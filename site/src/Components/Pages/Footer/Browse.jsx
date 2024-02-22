@@ -18,7 +18,7 @@ const Browse = () => {
           <li className="browse-item">
             <NavLink
               exact
-              to="/personale"
+              to="/staffhome"
               activeClassName="active"
               className="browse-link"
             >

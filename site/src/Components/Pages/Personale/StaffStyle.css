@@ -19,8 +19,7 @@
   margin: 30px;
 }
 
-.staff-first-container,
-.staff-second-container {
+.staff-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,7 +110,7 @@
   }
 
   .staff-desc {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .coach1,
