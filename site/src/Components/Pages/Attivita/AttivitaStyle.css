@@ -40,6 +40,7 @@
 }
 
 .att-container .icon-card-att {
+	color: var(--desc);
 	width: 200;
   height: 300;
 }
