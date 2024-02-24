@@ -1,7 +1,7 @@
 import "./FooterStyle.css";
-import Contact from "./Contact";
-import Browse from "./Browse";
-import FirstSection from "./FirstSection";
+import Contact from "./Sections/Contact";
+import Browse from "./Sections/Browse";
+import FirstSection from "./Sections/FirstSection";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="first-section">
         <FirstSection />
       </div>
-      
+
       <div className="second-section">
         <Browse />
       </div>

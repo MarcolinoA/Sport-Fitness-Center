@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import LogoIcon from "../../Icons/Logo";
-import LogoExt from "../../Icons/LogoExt";
-import "./FooterStyle.css";
+import LogoExt from "../../../Icons/LogoExt";
+import "../FooterStyle.css";
 
 const FirstSection = () => {
   return (

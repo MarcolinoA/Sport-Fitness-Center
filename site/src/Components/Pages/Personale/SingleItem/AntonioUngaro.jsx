@@ -1,6 +1,6 @@
-import Footer from "../Footer/Footer";
-import image_prova from "./coachProva.jpg";
-import "./PersonalStyle.css";
+import Footer from "../../Footer/Footer";
+import image_prova from "../Images/coachProva.jpg";
+import "../Styles/SingleItem.css";
 
 const AntonioUngaro = () => {
   return (

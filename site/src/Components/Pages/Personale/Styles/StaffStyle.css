@@ -64,6 +64,8 @@
   font-size: 28px;
 }
 
+/*PROBLEMA BOTTONI CLICKABILI SU TUTTA LA SEZIONE*/
+
 /*btn from https://cssbuttons.app/buttons/22*/
 .bn632-hover {
   width: 160px;
@@ -80,6 +82,7 @@
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+  letter-spacing: 0.5px;
 }
 
 .bn632-hover:hover {

@@ -1,6 +1,6 @@
-import EmailIcon from "../../Icons/EmailIcon";
-import PhoneIcon from "../../Icons/PhoneIcon";
-import PositionIcon from "../../Icons/PositionIcon";
+import EmailIcon from "../../../Icons/EmailIcon";
+import PhoneIcon from "../../../Icons/PhoneIcon";
+import PositionIcon from "../../../Icons/PositionIcon";
 
 const Contact = () => {
   return (

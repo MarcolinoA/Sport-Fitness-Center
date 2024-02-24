@@ -2,3 +2,7 @@
   background-color: var(--body_background);
   min-height: 100vh;
 }
+
+.our-offer {
+  padding: 20px;
+}

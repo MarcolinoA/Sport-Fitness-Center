@@ -1,5 +1,5 @@
 import React from "react";
-import "./AttivitaStyle.css";
+import "./Styles/AttivitaStyle.css";
 import StreatchingIcon from "./Icons/AttStreIcon";
 import PullupsIcon from "./Icons/AttPullIcon";
 import DeadliftIcon from "./Icons/AttDeadIcon";
@@ -13,6 +13,7 @@ const AttivitaCard = () => {
       name: "Fitness",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, placeat tempore ullam sapiente ex odio facere cupiditate iure quos",
       btn: "FITNESS",
+      link:"/fitnessitem"
     },
     {
       id: 2,
@@ -20,6 +21,7 @@ const AttivitaCard = () => {
       name: "Powerlift",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, placeat tempore ullam sapiente ex odio facere cupiditate iure quos",
       btn: "POWERLIFTING",
+      link:"/powerliftitem"
     },
     {
       id: 3,
@@ -27,6 +29,7 @@ const AttivitaCard = () => {
       name: "Posturale",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, placeat tempore ullam sapiente ex odio facere cupiditate iure quos",
       btn: "POSTURALE",
+      link:"/posturaleitem"
     },
   ];
 
@@ -49,7 +52,7 @@ const AttivitaCard = () => {
               <div className="info-att-container">
                 <h4 className="att-name">{item.name}</h4>
                 <p className="att-desc">{item.desc}</p>
-                <NavLink exact to="/antonioungaro">
+                <NavLink exact to={item.link}>
                   <button class="bn632-hover bn22">{item.btn}</button>
                 </NavLink>
               </div>

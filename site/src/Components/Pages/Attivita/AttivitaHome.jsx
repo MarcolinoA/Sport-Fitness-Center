@@ -1,4 +1,5 @@
 import Footer from "../Footer/Footer"
+import "./Styles/AttivitaStyle.css";
 import AttivitaCard from "./AttivitaCard"
 
 const AttivitaHome = () => {

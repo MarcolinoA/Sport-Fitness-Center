@@ -4,8 +4,13 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Contattaci from "./Components/Pages/Contattaci";
 import Home from "./Components/Pages/Home/Home";
 import StaffHome from "./Components/Pages/Personale/StaffHome";
-import AntonioUngaro from "./Components/Pages/Personale/AntonioUngaro";
 import AttivitaHome from "./Components/Pages/Attivita/AttivitaHome";
+import AntonioUngaro from "./Components/Pages/Personale/SingleItem/AntonioUngaro";
+import DavideGiangreco from "./Components/Pages/Personale/SingleItem/DavideGiangreco";
+import FrancescoMaglie from "./Components/Pages/Personale/SingleItem/FrancescoMaglie";
+import FitnessItem from "./Components/Pages/Attivita/SingleItems/FitnessItem";
+import PowerliftItem from "./Components/Pages/Attivita/SingleItems/PowerliftItem";
+import PosturaleItem from "./Components/Pages/Attivita/SingleItems/Posturale";
 
 function App() {
   return (
@@ -20,6 +25,11 @@ function App() {
           <Route exact path="/attivita" element={<AttivitaHome />} />
           <Route exact path="/contattaci" element={<Contattaci />} />
           <Route exact path="/antonioungaro" element={<AntonioUngaro />} />
+          <Route exact path="/davidegiangreco" element={<DavideGiangreco />} />
+          <Route exact path="/francescomaglie" element={<FrancescoMaglie />} />
+          <Route exact path="/fitnessitem" element={<FitnessItem />} />
+          <Route exact path="/powerliftitem" element={<PowerliftItem />} />
+          <Route exact path="/posturaleitem" element={<PosturaleItem />} />
         </Routes>
         </div>
       </BrowserRouter>

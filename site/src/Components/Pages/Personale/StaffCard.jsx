@@ -1,6 +1,6 @@
-import image_prova from "./coachProva.jpg";
-import "./StaffStyle.css";
-import { NavLink } from "react-router-dom";
+import image_prova from "./Images/coachProva.jpg";
+import "./Styles/StaffStyle.css";
+import { Link } from "react-router-dom";
 
 const StaffCard = () => {
   /*   
@@ -14,6 +14,7 @@ const StaffCard = () => {
       name: "Antonio Ungaro",
       job: "DIRETTORE TECNICO",
       desc: "Pietra miliare di H2O Concept ed oggi DT, inizia il suo percorso nel mondo del fitness da molto giovane e si appassiona quasi da subito al bodybuilding e alla pesistica.",
+      link: "/antonioungaro"
     },
     {
       id: 2,
@@ -21,6 +22,7 @@ const StaffCard = () => {
       name: "Davide Giangreco",
       job: "DIRETTORE TECNICO",
       desc: "Pietra miliare di H2O Concept ed oggi DT, inizia il suo percorso nel mondo del fitness da molto giovane e si appassiona quasi da subito al bodybuilding e alla pesistica.",
+      link: "/davidegiangreco"
     },
     {
       id: 3,
@@ -28,6 +30,7 @@ const StaffCard = () => {
       name: "Francesco Maglie",
       job: "DIRETTORE TECNICO",
       desc: "Pietra miliare di H2O Concept ed oggi DT, inizia il suo percorso nel mondo del fitness da molto giovane e si appassiona quasi da subito al bodybuilding e alla pesistica.",
+      link: "/francescomaglie"
     },
   ];
 
@@ -57,9 +60,9 @@ const StaffCard = () => {
                 <strong>{coach.job}</strong>
               </p>
               <p className="coach-desc">{coach.desc}</p>
-              <NavLink exact to="/antonioungaro">
+              <Link exact to={coach.link} className={"staff-link"}>
                 <button class="bn632-hover bn22">DETTAGLI</button>
-              </NavLink>
+              </Link>
             </div>
           </div>
         ))}
