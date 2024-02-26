@@ -3,7 +3,8 @@ import "./HomeStyle.css";
 import Background from "./Background/Background";
 import OfferCard from "./OurOffer/OfferCard";
 import Footer from "../Footer/Footer";
-import Gallery from "./Gallery/Gallery";
+import Gallery from "../Gallery/Gallery";
+
 
 const Home = () => {
   const images = [
@@ -24,7 +25,7 @@ const Home = () => {
       </div>
 
       <div className="gallery">
-        <Gallery images={images}/>
+        <Gallery images={images} />
       </div>
 
       <div className="footer">

@@ -1,0 +1,104 @@
+.contactus-title {
+  background-color: var(--navbar_background);
+  color: var(--navbar_color);
+  font-size: 80px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.contact-logo {
+  width: 400px;
+  color: var(--body_color);
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-info-name{
+  color: var(--body_color);
+  font-size: 48px;
+}
+
+.contact-info-desc{
+  color: var(--desc);
+  font-size: 30px;
+}
+
+.link-container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.link-title {
+  color: var(--body_color);
+  font-size: 48px;
+}
+
+.link-desc{
+  color: var(--desc);
+  font-size: 30px;
+}
+
+svg.contact-link-icon {
+  width: 70px;
+  height: 70px;
+  color: var(--body_color);
+  margin-bottom: -20px;
+}
+
+.contact-a {
+  text-decoration: none;
+  color: var(--desc);
+  font-size: 30px;
+}
+
+.link-maps-field,
+.link-phone-field,
+.link-email-field,
+.link-ig-field {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .contactus-title {
+    font-size: 60px;
+  }
+
+  .contact-logo {
+    width: 300px;
+  }
+
+  .contact-info-name {
+    font-size: 40px;
+  }
+
+  .contact-info-desc {
+    font-size: 25px;
+  }
+
+  .link-title{
+    font-size: 40px;
+  }
+
+  .link-desc{
+    font-size: 25px;
+  }
+
+  .contact-a {
+    font-size: 25px;
+  }
+}

@@ -1,7 +1,6 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import Contattaci from "./Components/Pages/Contattaci";
 import Home from "./Components/Pages/Home/Home";
 import StaffHome from "./Components/Pages/Personale/StaffHome";
 import AttivitaHome from "./Components/Pages/Attivita/AttivitaHome";
@@ -11,6 +10,7 @@ import FrancescoMaglie from "./Components/Pages/Personale/SingleItem/FrancescoMa
 import FitnessItem from "./Components/Pages/Attivita/SingleItems/FitnessItem";
 import PowerliftItem from "./Components/Pages/Attivita/SingleItems/PowerliftItem";
 import PosturaleItem from "./Components/Pages/Attivita/SingleItems/Posturale";
+import Contattaci from "./Components/Pages/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/staffhome" element={<StaffHome />} />
           <Route exact path="/attivita" element={<AttivitaHome />} />
-          <Route exact path="/contattaci" element={<Contattaci />} />
+          <Route exact path="/contattaci" element={<Contattaci /> } />
           <Route exact path="/antonioungaro" element={<AntonioUngaro />} />
           <Route exact path="/davidegiangreco" element={<DavideGiangreco />} />
           <Route exact path="/francescomaglie" element={<FrancescoMaglie />} />

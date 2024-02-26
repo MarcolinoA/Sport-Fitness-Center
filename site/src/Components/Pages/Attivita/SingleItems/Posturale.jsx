@@ -1,17 +1,26 @@
 import Footer from "../../Footer/Footer";
+import Gallery from "../../Gallery/Gallery";
 
 const PosturaleItem = () => {
+  const images = [
+    "https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/773471/pexels-photo-773471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/632522/pexels-photo-632522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  ];
+
   return (
     <div className="personal">
       <h1 className="title-name">Posturale</h1>
 
       <div className="personal-info-container">
         <div className="personal-info-img">
-          <img className="img-info" src="" alt="" />
+          <Gallery images={images} />
         </div>
 
         <div className="personal-info">
-          <h4 className="personal-name">Posturale</h4>
           <p className="personal-desc">
             Pietra miliare di H2O Concept ed oggi DT, inizia il suo percorso nel
             mondo del fitness da molto giovane e si appassiona quasi da subito

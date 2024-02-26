@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./GalleryStyle.css";
 
-const Gallery = ({ images }) => {
+const Gallery = ({ images, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ const Gallery = ({ images }) => {
   return (
     <div className="gallery">
       <div className="gallery-title">
-        <h1 className="h1-title">Gallery</h1>
+        <h1 className="h1-title">{ title }</h1>
       </div>
       <div className="carousel-images">
         <AnimatePresence mode="wait">
