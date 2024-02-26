@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/site-gym/static/css/main.6221a348.css",
+    "main.js": "/site-gym/static/js/main.625e4581.js",
+    "static/js/592.cddc7610.chunk.js": "/site-gym/static/js/592.cddc7610.chunk.js",
+    "static/media/home-image.jpg": "/site-gym/static/media/home-image.5cb6a8fa80050560cb17.jpg",
+    "static/media/coachProva.jpg": "/site-gym/static/media/coachProva.034596ad1556833cc2b0.jpg",
+    "index.html": "/site-gym/index.html",
+    "main.6221a348.css.map": "/site-gym/static/css/main.6221a348.css.map",
+    "main.625e4581.js.map": "/site-gym/static/js/main.625e4581.js.map",
+    "592.cddc7610.chunk.js.map": "/site-gym/static/js/592.cddc7610.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6221a348.css",
+    "static/js/main.625e4581.js"
+  ]
+}
