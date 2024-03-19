@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./Components/Pages/Home/Home";
 import StaffHome from "./Components/Pages/Personale/StaffHome";
 import AttivitaHome from "./Components/Pages/Attivita/AttivitaHome";
@@ -18,19 +18,26 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <div className="pages">
-        <Home />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/staffhome" element={<StaffHome />} />
-          <Route exact path="/attivita" element={<AttivitaHome />} />
-          <Route exact path="/contattaci" element={<Contattaci /> } />
-          <Route exact path="/antonioungaro" element={<AntonioUngaro />} />
-          <Route exact path="/davidegiangreco" element={<DavideGiangreco />} />
-          <Route exact path="/francescomaglie" element={<FrancescoMaglie />} />
-          <Route exact path="/fitnessitem" element={<FitnessItem />} />
-          <Route exact path="/powerliftitem" element={<PowerliftItem />} />
-          <Route exact path="/posturaleitem" element={<PosturaleItem />} />
-        </Routes>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/staffhome" element={<StaffHome />} />
+            <Route exact path="/attivita" element={<AttivitaHome />} />
+            <Route exact path="/contattaci" element={<Contattaci />} />
+            <Route exact path="/antonioungaro" element={<AntonioUngaro />} />
+            <Route
+              exact
+              path="/davidegiangreco"
+              element={<DavideGiangreco />}
+            />
+            <Route
+              exact
+              path="/francescomaglie"
+              element={<FrancescoMaglie />}
+            />
+            <Route exact path="/fitnessitem" element={<FitnessItem />} />
+            <Route exact path="/powerliftitem" element={<PowerliftItem />} />
+            <Route exact path="/posturaleitem" element={<PosturaleItem />} />
+          </Routes>
         </div>
       </BrowserRouter>
     </>

@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
-
+import React from "react";
 import { useState } from "react";
 import BtnTheme from "../BtnTheme/BtnTheme";
 import LogoExt from "../Icons/LogoExt";
@@ -39,7 +39,7 @@ const Navbar = () => {
         <li className="nav-item">
           <NavLink
             exact
-            to="/StaffHome"
+            to="/staffhome"
             activeClassName="active"
             className="nav-links"
             onClick={handleClick}
